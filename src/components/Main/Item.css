@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.item {
+  margin: 20px;
+  border: 1px solid grey;
+  width: 40vw;
+  height: 35vh;
+}
+
+.item-img {
+  text-align: center;
+  padding: 2rem;
+  border-bottom: 0.02px solid grey;
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding-left: 10px;
+  justify-content: space-between;
+  line-height: 30px;
+}
+.item-name {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 1rem;
+}
+.item-details span {
+  margin-left: 6rem;
+}
