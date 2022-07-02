@@ -1,4 +1,6 @@
+// import {Routes} from "react-router-dom"
 import "./styles.css";
+// import NavLink from "./components/pages/NavLink"
 import Header from "./components/Header/Header.js"
 import Collection from "./components/Main/Collection";
 export default function App() {
@@ -31,7 +33,7 @@ export default function App() {
   ];
   return (
     <div>
-      <Header />
+      <Header headerText='FarmNet'/>
       <Collection pro={Products} />
     </div>
   );

@@ -1,9 +1,11 @@
 import "./Header.css"
-function Header() {
-  const HeaderText = "FarmNet";
+import NavLink from ".../pages/NavLink"
+function Header(props) {
+
   return (
     <div>
-      <h2 className="header">{HeaderText}</h2>
+      <h2 className="header">{props.headerText}</h2>
+      <NavLink/>
     </div>
   );
 }
