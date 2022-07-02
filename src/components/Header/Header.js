@@ -1,5 +1,5 @@
 import "./Header.css"
-import NavLink from ".../pages/NavLink"
+import NavLink from "./../pages/NavLink"
 function Header(props) {
 
   return (

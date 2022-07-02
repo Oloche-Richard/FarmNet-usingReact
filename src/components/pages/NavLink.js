@@ -1,15 +1,17 @@
+import "./NavLink.css"
 import Home from "./Home"
 import Blog from "./Blog"
 import Cart from "./Cart"
 import Notification from "./Notification"
+
  const NavLink = () => {
    return (
-     <nav>
+     <div>
      <Home/>
      <Blog/>
      <Cart/>
      <Notification/>
-    </nav>
+    </div>
    )
  }
 
