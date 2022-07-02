@@ -1,4 +1,6 @@
-nav {
+.header-link {
   float: right;
-  display: flex
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
 }

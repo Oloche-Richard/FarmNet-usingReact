@@ -6,7 +6,7 @@ import Notification from "./Notification"
 
  const NavLink = () => {
    return (
-     <div>
+     <div className='header-link'>
      <Home/>
      <Blog/>
      <Cart/>
