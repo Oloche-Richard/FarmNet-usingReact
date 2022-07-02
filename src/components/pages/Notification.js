@@ -1,6 +1,7 @@
+import './Notification.css'
 const Notification =() => {
   return (
-    <h3>Notification</h3>
+    <h3 className='cart'>Notification</h3>
   )
 }
 
