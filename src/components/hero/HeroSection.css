@@ -1,10 +1,30 @@
-/* 
+
 .hero-section{
   overflow: hidden;
 }
-.hero-section img{
-  width: 100vw;
-  opacity: 0.9;
-  background-image: url('./../image/ANIMAL BACKGROUND.jpg')
+.hero-text{
+  display: flex;
+  flex-direction: column;
+  align-item: center;
+  justify-content: space-between;
+  gap: 
+}
 
-} */
+.hero-text span {
+  font-size: 6.5rem
+}
+.hero-text p {
+  font-size: 25px;
+}
+
+.hero-btns{
+  display: flex;
+  flex-direction: row;
+  align-item:center;
+  justify-content: space-between;
+  gap:10px;
+}
+
+.hero-btn{
+  background-color: 'red'
+}

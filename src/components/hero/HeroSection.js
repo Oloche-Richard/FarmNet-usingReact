@@ -1,20 +1,34 @@
 import hero from "./../image/animalBackground.jpg"
+import Button from "./../Main/Button"
 import  "./HeroSection.css"
-// import Button from "../Main/Button"
  const HeroSection = () => {
     const heroStyle = {
       backgroundImage: `url(${hero})`,
       width: '100vw',
       height: '70vh'
+    }
 
+    const btnStyle = {
+      backgroundColor: 'red',
+      padding: '15px 20px'
     }
     return (
       <div  className={heroStyle}>
-      <div>
+      <div className='hero-text'>
         <span>The Best</span>
         <span>Custormer</span>
         <span>Experiences</span>
-        <p>lorem slnsldfns lsanlnasisfnas inlsan lnalsnas ionasdfnoin asfnasinkl c ljnASOInaf sj sajnsonsdfson onSOfdnonsfdnlsknf sdfnoissdf dlnsnsd l;knoidsn </p>
+        <p>Are you?</p>
+        <div className='hero-btns'>
+          <Button 
+          text= 'Buyer'
+          className='hero-btn'
+          />
+          <Button 
+          text= 'Seller'
+          className='hero-btn'
+          />
+        </div>
       </div>
       </div>
       

@@ -1,5 +1,5 @@
 import "./Button.css";
-const Button = ({text}) => {
-  return <button>{text}</button>;
-};
+const Button = ({text, color}) => {
+  return <button className={color}>{text}</button>;
+};                                         
 export default Button;
