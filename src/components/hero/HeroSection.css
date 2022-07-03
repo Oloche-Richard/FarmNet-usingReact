@@ -1,8 +1,10 @@
+/* 
 .hero-section{
-  /* margin: 10px; */
+  overflow: hidden;
 }
 .hero-section img{
   width: 100vw;
-  /* overflow-x: none; */
+  opacity: 0.9;
+  background-image: url('./../image/ANIMAL BACKGROUND.jpg')
 
-}
+} */
