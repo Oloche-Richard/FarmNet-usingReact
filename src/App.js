@@ -3,6 +3,7 @@ import "./styles.css";
 // import NavLink from "./components/pages/NavLink"
 import Header from "./components/Header/Header.js"
 import Collection from "./components/Main/Collection";
+import HeroSection from "./components/hero/HeroSection"
 export default function App() {
   const Products = [
     {
@@ -34,6 +35,7 @@ export default function App() {
   return (
     <div>
       <Header headerText='FarmNet'/>
+      <HeroSection/>
       <Collection pro={Products} />
     </div>
   );
