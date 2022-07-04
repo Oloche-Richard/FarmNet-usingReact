@@ -1,24 +1,16 @@
-import hero from "./../image/animalBackground.jpg"
 import Button from "./../Main/Button"
 import  "./HeroSection.css"
- const HeroSection = () => {
-    const heroStyle = {
-      backgroundImage: `url(${hero})`,
-      width: '100vw',
-      height: '70vh'
-    }
-
-    const btnStyle = {
-      backgroundColor: 'red',
-      padding: '15px 20px'
-    }
+import Hero from "./Hero"
+ 
+ const HeroSection =(props) => {
     return (
-      <div  className={heroStyle}>
+      <Hero>
       <div className='hero-text'>
         <span>The Best</span>
         <span>Custormer</span>
         <span>Experiences</span>
         <p>Are you?</p>
+        </div>
         <div className='hero-btns'>
           <Button 
           text= 'Buyer'
@@ -29,8 +21,8 @@ import  "./HeroSection.css"
           className='hero-btn'
           />
         </div>
-      </div>
-      </div>
+
+      </Hero>
       
     )
  }
