@@ -1,13 +1,15 @@
 
 .hero-section{
   overflow: hidden;
+  margin: auto;
 }
 .hero-text{
   display: flex;
   flex-direction: column;
   align-item: center;
   justify-content: space-between;
-  gap: 
+  padding-top: 40px;
+  text-align:center;
 }
 
 .hero-text span {
@@ -15,6 +17,7 @@
 }
 .hero-text p {
   font-size: 25px;
+  margin-top:15px;
 }
 
 .hero-btns{

@@ -8,7 +8,9 @@ const Hero = (props) => {
       backgroundSize:'cover',
       backgroundPosition:'center',
       width: '100vw',
-      height: '90vh'
+      height: '90vh',
+      margin:'auto'
+
     }}
 
   return (

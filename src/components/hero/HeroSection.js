@@ -3,18 +3,23 @@ import  "./HeroSection.css"
 import Hero from "./Hero"
  
  const HeroSection =(props) => {
+   const style = {
+     btn: {
+       backgroundColor:'red',
+       padding:'15px 10px',
+     }}
     return (
       <Hero>
       <div className='hero-text'>
         <span>The Best</span>
         <span>Custormer</span>
         <span>Experiences</span>
-        <p>Are you?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br/>elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
         </div>
         <div className='hero-btns'>
           <Button 
           text= 'Buyer'
-          className='hero-btn'
+          style={style.btn}
           />
           <Button 
           text= 'Seller'
