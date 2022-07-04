@@ -12,9 +12,10 @@ const Hero = (props) => {
       margin:'auto'
 
     }}
+     const classes = ' hero-section ' + props.className;
 
   return (
-    <div style={style.heroStyle}>{props.children}</div>
+    <div style={style.heroStyle} className={classes}>{props.children}</div>
   )
 }
 

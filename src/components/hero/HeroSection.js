@@ -9,7 +9,7 @@ import Hero from "./Hero"
        padding:'15px 10px',
      }}
     return (
-      <Hero>
+      <Hero className='hero-section'>
       <div className='hero-text'>
         <span>The Best</span>
         <span>Custormer</span>
@@ -19,7 +19,7 @@ import Hero from "./Hero"
         <div className='hero-btns'>
           <Button 
           text= 'Buyer'
-          style={style.btn}
+          newStyle= {{backgroundColor: 'red'}}
           />
           <Button 
           text= 'Seller'

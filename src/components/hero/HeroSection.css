@@ -2,6 +2,8 @@
 .hero-section{
   overflow: hidden;
   margin: auto;
+  background-color: 'pink';
+  font-size: 400px;
 }
 .hero-text{
   display: flex;
@@ -22,12 +24,9 @@
 
 .hero-btns{
   display: flex;
+  width: 10%;
   flex-direction: row;
   align-item:center;
   justify-content: space-between;
-  gap:10px;
-}
-
-.hero-btn{
-  background-color: 'red'
+  /* gap:10px; */
 }
