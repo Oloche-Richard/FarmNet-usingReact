@@ -3,11 +3,7 @@ import  "./HeroSection.css"
 import Hero from "./Hero"
  
  const HeroSection =(props) => {
-   const style = {
-     btn: {
-       backgroundColor:'red',
-       padding:'15px 10px',
-     }}
+
     return (
       <Hero className='hero-section'>
       <div className='hero-text'>
@@ -19,11 +15,21 @@ import Hero from "./Hero"
         <div className='hero-btns'>
           <Button 
           text= 'Buyer'
-          newStyle= {{backgroundColor: 'red'}}
+          newStyle= {{
+           backgroundColor: 'red',
+           padding: '20px 40px',
+           color: '#fff',
+           fontSize: '18px'
+           }}
           />
           <Button 
           text= 'Seller'
-          className='hero-btn'
+          newStyle={{
+            backgroundColor: 'yellow',
+            padding: '20px 40px',
+            color: '#fff',
+            fontSize: '18px'
+            }}
           />
         </div>
 

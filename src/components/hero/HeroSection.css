@@ -23,10 +23,13 @@
 }
 
 .hero-btns{
+  position: absolute;
+  top: 75%;
+  left: 40%;
   display: flex;
   width: 10%;
   flex-direction: row;
   align-item:center;
   justify-content: space-between;
-  /* gap:10px; */
+  gap:20px;
 }
