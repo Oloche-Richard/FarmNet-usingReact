@@ -9,7 +9,7 @@ const Hero = (props) => {
       backgroundPosition:'center',
       width: '100vw',
       height: '90vh',
-      margin:'auto'
+      margin:'auto',
 
     }}
      const classes = ' hero-section ' + props.className;

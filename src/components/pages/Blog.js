@@ -1,7 +1,7 @@
 import "./Blog.css"
 const Blog = () => {
   return (
-    <Link to='/blog'>Blog</Link>
+   <h3 className='blog'>Blog</h3>
     )
   
 }

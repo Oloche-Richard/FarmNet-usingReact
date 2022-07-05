@@ -3,18 +3,34 @@ import Home from "./Home"
 import Blog from "./Blog"
 import Cart from "./Cart"
 import Notification from "./Notification"
-import {Route, Routes} from "react-router-dom"
+import {Link} from "react-router-dom"
 
  const NavLink = () => {
    return (
-     <div className='header-link'>
-     <Routes>
-     <Route path="/home"><Home/></Route>
-     <Route path="/blog"><Blog/></Route>
-     <Route path="/cart"><Cart/></Route>
-     <Route path="/notification"><Notification/></Route>
-     </Routes>
-    </div>
+     <nav className='header-link'>
+        <ul>
+          <li>
+            <Link to='/'>
+              <Home/>
+            </Link>
+          </li>
+          <li>
+            <Link to='/blog'>
+              <Blog/>
+            </Link>
+          </li>
+          <li>
+            <Link to='/cart'>
+              <Cart/>
+            </Link>
+          </li>
+          <li>
+            <Link to='/notification'>
+              <Notification/>
+            </Link>
+          </li>
+        </ul>
+    </nav>
    )
  }
 
