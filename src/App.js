@@ -34,6 +34,7 @@ export default function App() {
   ];
   return (
     <div>
+  
       <Header headerText='FarmNet'/>
       <HeroSection/>
       <Collection pro={Products} />
