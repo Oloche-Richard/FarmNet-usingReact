@@ -19,7 +19,6 @@ import Hero from "./Hero"
            backgroundColor: 'red',
            padding: '20px 40px',
            color: '#fff',
-           fontSize: '18px'
            }}
           />
           <Button 
@@ -28,7 +27,6 @@ import Hero from "./Hero"
             backgroundColor: 'yellow',
             padding: '20px 40px',
             color: '#fff',
-            fontSize: '18px'
             }}
           />
         </div>

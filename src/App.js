@@ -3,6 +3,7 @@ import "./styles.css";
 import Header from "./components/Header/Header.js"
 import Collection from "./components/Main/Collection";
 import HeroSection from "./components/hero/HeroSection"
+import LoginTest from "./test/LoginTest"
 export default function App() {
   const Products = [
     {
@@ -36,6 +37,7 @@ export default function App() {
       <Header headerText='FarmNet'/>
       <HeroSection/>
       <Collection pro={Products} />
+      <LoginTest/>
     </div>
   );
 }
