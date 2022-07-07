@@ -4,6 +4,7 @@ import Header from "./components/Header/Header.js"
 import Collection from "./components/Main/Collection";
 import HeroSection from "./components/hero/HeroSection"
 import LoginTest from "./test/LoginTest"
+import Footer from "./components/footer/Footer"
 export default function App() {
   const Products = [
     {
@@ -38,6 +39,7 @@ export default function App() {
       <HeroSection/>
       <Collection pro={Products} />
       <LoginTest/>
+      <Footer/>
     </div>
   );
 }
