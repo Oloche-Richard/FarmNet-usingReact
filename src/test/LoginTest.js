@@ -3,17 +3,38 @@ import {useState} from 'react'
 import "./LoginTest.css"
 const LoginTest = () => {
 
-  const [username, setUsername] = useState('')
- 
+  const [enteredName, setEnteredName] = useState('')
+   const [enteredKey, setEnteredKey] = useState('')
+  
   const usernameHandler = (event) => {
-    console.log(event.target.value)
+    setEnteredName(event.target.value)
+  }
+
+  const passwordHandler = (event) => {
+    setEnteredKey(event.target.value)
+  }
+
+  const submitHandler = (event) => {
+    event.preventDefault();
+
+    const userData = {
+      username: enteredName,
+      password: enteredKey
+    };
+    console.log(userData);
+    setEnteredName('')
+    setEnteredKey('')
+
   }
   return(
     <div className='login'>
-    <div className='login-data'>
+    <form 
+    className='login-data'
+    onSubmit={submitHandler}>
     <div>
     <label>Username</label>
     <input 
+    value={enteredName}
     type='text'
     onChange={usernameHandler}
     />
@@ -21,8 +42,9 @@ const LoginTest = () => {
     <div>
     <label>Password</label>
     <input 
-    type='text'
-    // onChange={passwordHandler}
+    value={enteredKey}
+    type='password'
+    onChange={passwordHandler}
     />
     </div>
    <div>
@@ -40,7 +62,7 @@ const LoginTest = () => {
    />
    </div>
    <span>what the fuck</span>
-    </div>
+    </form>
     </div>
 
   )
