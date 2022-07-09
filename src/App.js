@@ -5,6 +5,7 @@ import Collection from "./components/Main/Collection";
 import HeroSection from "./components/hero/HeroSection"
 import LoginTest from "./test/LoginTest"
 import Footer from "./components/footer/Footer"
+
 export default function App() {
   const Products = [
     {
@@ -33,6 +34,7 @@ export default function App() {
       weight: 90
     }
   ];
+
   return (
     <div>
       <Header headerText='FarmNet'/>

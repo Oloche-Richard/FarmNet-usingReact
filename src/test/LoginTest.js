@@ -21,11 +21,15 @@ const LoginTest = () => {
       username: enteredName,
       password: enteredKey
     };
-    console.log(userData);
+    console.log({userData})
     setEnteredName('')
     setEnteredKey('')
 
   }
+const welcomeUser = () => {
+  alert(`${username}`)
+}
+
   return(
     <div className='login'>
     <form 
@@ -59,6 +63,7 @@ const LoginTest = () => {
      backgroundColor: 'pink',
      color: '#000',
    }}
+   onClick={welcomeUser}
    />
    </div>
    <span>Welcome</span>
