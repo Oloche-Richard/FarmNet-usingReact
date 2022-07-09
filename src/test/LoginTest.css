@@ -5,6 +5,7 @@
   justify-content: center;
   flex-direction: column;
   border: 5px solid gold;
+  border-radius: 20px;
   width: 50%;
   height: 70%;
   margin: 5rem auto;
@@ -20,5 +21,9 @@
 
 }
 .login input {
+  border: 1px solid gold;
+  border-radius: 10px;
+  outline: none;
   padding: 10px 150px;
+  text-align: right; 
 }

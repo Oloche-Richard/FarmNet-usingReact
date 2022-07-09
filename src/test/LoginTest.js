@@ -61,7 +61,7 @@ const LoginTest = () => {
    }}
    />
    </div>
-   <span>what the fuck</span>
+   <span>Welcome</span>
     </form>
     </div>
 
