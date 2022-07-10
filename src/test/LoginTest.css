@@ -26,4 +26,15 @@
   outline: none;
   padding: 10px 150px;
   text-align: right; 
+  box-sizing:border-box;
+}
+
+.login input[type=text]:focus{
+  border-color:dodgerBlue;
+  box-shadow:0 0 8px 0 dodgerBlue;
+}
+
+.login input[type=password]:focus{
+  border-color:dodgerBlue;
+  box-shadow:0 0 8px 0 dodgerBlue;
 }

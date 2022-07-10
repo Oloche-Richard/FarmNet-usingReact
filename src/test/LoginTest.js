@@ -26,10 +26,6 @@ const LoginTest = () => {
     setEnteredKey('')
 
   }
-// const welcomeUser = (userData) => {
-//   return
-//   alert(userData.username)
-// }
 
   return(
     <div className='login'>
