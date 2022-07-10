@@ -21,14 +21,15 @@ const LoginTest = () => {
       username: enteredName,
       password: enteredKey
     };
-    console.log({userData})
+    console.log(userData)
     setEnteredName('')
     setEnteredKey('')
 
   }
-const welcomeUser = () => {
-  alert(`${username}`)
-}
+// const welcomeUser = (userData) => {
+//   return
+//   alert(userData.username)
+// }
 
   return(
     <div className='login'>
@@ -63,7 +64,7 @@ const welcomeUser = () => {
      backgroundColor: 'pink',
      color: '#000',
    }}
-   onClick={welcomeUser}
+   onClick={(userData)=>{alert(userData.username)}}
    />
    </div>
    <span>Welcome</span>
