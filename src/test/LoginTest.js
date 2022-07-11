@@ -60,7 +60,7 @@ const LoginTest = () => {
      backgroundColor: 'pink',
      color: '#000',
    }}
-   onClick={(userData)=>{alert(userData.username)}}
+   onClick={(userData)=>{alert('welcome')}}
    />
    </div>
    <span>Welcome</span>
