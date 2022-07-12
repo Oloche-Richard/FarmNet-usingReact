@@ -1,11 +1,13 @@
 import Button from "./../Main/Button"
 import  "./HeroSection.css"
 import Hero from "./Hero"
+import Header from "./../Header/Header"
  
  const HeroSection =(props) => {
 
     return (
       <Hero className='hero-section'>
+      <Header headerText='FarmNet'/>
       <div className='hero-text'>
         <span>The Best</span>
         <span>Custormer</span>

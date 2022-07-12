@@ -5,8 +5,14 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "6.1.1",
+    "@fortawesome/free-brands-svg-icons": "6.1.1",
+    "@fortawesome/free-solid-svg-icons": "6.1.1",
+    "@fortawesome/react-fontawesome": "0.2.0",
+    "font-awesome": "4.7.0",
     "react": "18.0.0",
     "react-dom": "18.0.0",
+    "react-icons": "4.4.0",
     "react-router-dom": "6.3.0",
     "react-scripts": "4.0.0",
     "usestate": "1.1.3"

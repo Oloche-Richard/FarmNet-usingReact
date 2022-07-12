@@ -1,6 +1,5 @@
 import "./styles.css";
 // import NavLink from "./components/pages/NavLink"
-import Header from "./components/Header/Header.js"
 import Collection from "./components/Main/Collection";
 import HeroSection from "./components/hero/HeroSection"
 import LoginTest from "./test/LoginTest"
@@ -37,7 +36,6 @@ export default function App() {
 
   return (
     <div>
-      <Header headerText='FarmNet'/>
       <HeroSection/>
       <Post/>
       <Collection pro={Products} />

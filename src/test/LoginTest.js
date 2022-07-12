@@ -7,7 +7,7 @@ const LoginTest = () => {
    const [enteredKey, setEnteredKey] = useState('')
   
   const usernameHandler = (event) => {
-    setEnteredName(event.target.value)
+    setEnteredName(event.target.value);
   }
 
   const passwordHandler = (event) => {
@@ -60,7 +60,7 @@ const LoginTest = () => {
      backgroundColor: 'pink',
      color: '#000',
    }}
-   onClick={(userData)=>{alert('welcome')}}
+   onClick={window.alert('welcome')}
    />
    </div>
    <span>Welcome</span>
