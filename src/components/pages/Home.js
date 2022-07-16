@@ -1,12 +1,16 @@
 import "./Home.css"
-import {FontAwesomeIcon}  from '@fortawesome/react-fontawesome'
-import {faHouse} from '@fortawesome/free-solid-svg-icons'
-const Home =() => {
+import {IconContext} from "react-icons"
+import { IconName } from "react-icons/fa";
+import {FaTwitter}  from "react-icons/fa"
+
+const Home = () => {
   return (  
+    <IconContext.provider>
     <div style={{display:'flex', alignItems:'center', gap: '5px'}}>
-    <FontAwesomeIcon icon={faHouse} />    
   <h3 className='home'>Home</h3>
+  <FaTwitter/>
     </div>
+    </IconContext.provider>
   )
 }
 

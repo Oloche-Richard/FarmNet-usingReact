@@ -1,4 +1,5 @@
 import "./styles.css";
+import {FontAwesome}  from "react-icons/fa"
 // import NavLink from "./components/pages/NavLink"
 import Collection from "./components/Main/Collection";
 import HeroSection from "./components/hero/HeroSection"
